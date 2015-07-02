@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DBMSStaff</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ipadd">DBMS(Staff)</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_course">Course</string>
+    <string name="title_activity_attendstud">Student Attendance</string>
+    <string name="title_activity_marksstud">Student Marks</string>
+    <string name="title_activity_testpicker">Select Test</string>
+    <string name="title_activity_pass">Change Password</string>
+    <string name="title_activity_disattrep">Attendance Statistics</string>
+    <string name="title_activity_dismarrep">Student Marks</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_postit">Notice</string>
+</resources>

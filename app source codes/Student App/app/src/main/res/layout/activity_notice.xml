@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/background1"
+    android:gravity="center_vertical"
+    tools:context="com.example.rajathjavali.dbmsproject.notice">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Notices"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <!--<ScrollView
+        android:layout_weight="0.85"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp">-->
+    <LinearLayout
+        android:layout_weight="0.85"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center">
+        <ListView
+            android:id="@+id/l1"
+            android:layout_weight="0.75"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            </ListView>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Next --->"
+        android:id="@+id/but"
+        android:onClick="next"/>
+<!--
+    </ScrollView>
+-->
+
+</LinearLayout>

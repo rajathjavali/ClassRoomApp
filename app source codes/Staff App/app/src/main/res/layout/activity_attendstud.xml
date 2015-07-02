@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.rajathjavali.dbmsprojectstaff.attendstud"
+    android:orientation="vertical"
+    android:background="@drawable/board"
+    android:weightSum="1"
+    android:gravity="center_vertical">
+    <!--    android:background="@drawable/rainbow"-->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/disp"
+                    android:textColor="#ffffff"
+                    android:text="Attendance Student List"
+                    android:textSize="20dp"/>
+                <!---->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+                <ScrollView
+
+                    android:layout_width="0dp"
+                    android:layout_weight="0.80"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/lin"
+                        android:gravity="center_horizontal">
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <Button
+                style="?android:buttonBarStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:textColor="#ffffff"
+                android:text="Submit"
+                android:id="@+id/go"/>
+            <!---->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

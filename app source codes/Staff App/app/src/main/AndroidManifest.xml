@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajathjavali.dbmsprojectstaff" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens>
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+    </supports-screens>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/staff"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".ipadd"
+            android:label="@string/title_activity_ipadd"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".profile"
+            android:label="@string/title_activity_profile"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".course"
+            android:label="@string/title_activity_course"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".attendstud"
+            android:label="@string/title_activity_attendstud"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".marksstud"
+            android:label="@string/title_activity_marksstud"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".testpicker"
+            android:label="@string/title_activity_testpicker"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".pass"
+            android:label="@string/title_activity_pass"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".disattrep"
+            android:label="@string/title_activity_disattrep"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".dismarrep"
+            android:label="@string/title_activity_dismarrep"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".postit"
+            android:label="@string/title_activity_postit"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+    </application>
+
+</manifest>
